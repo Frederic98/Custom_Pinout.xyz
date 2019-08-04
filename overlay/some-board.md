@@ -10,7 +10,7 @@ url: https://pinout.xyz
 github: https://github.com/Frederic98/Custom_Pinout.xyz
 schematic: https://github.com/Frederic98/Custom_Pinout.xyz
 buy: http://pinout.xyz
-image: 'someboard.png'
+image: 'some-board.png'
 pincount: 40
 eeprom: no
 power:

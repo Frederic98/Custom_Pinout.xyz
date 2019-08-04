@@ -10,7 +10,7 @@ url: https://my-addon-board.com
 github: https://github.com/my-addon-board-repo.com
 schematic: https://my-addon-board-schematic.com
 buy: http://buy-my-addon-board.com
-image: 'image.png'
+image: 'template.png'
 pincount: 40
 eeprom: no
 power:
