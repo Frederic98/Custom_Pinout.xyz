@@ -12,3 +12,7 @@ docker run -d \
     frederic98/custom_pinout.xyz
 ```
 with BOARDS_URL pointing to your github repository
+
+To keep the boards view uncluttered, the boards that are on [pinout.xyz](https://pinout.xyz) are removed, and only your own boards are displayed.
+
+The board definitions are downloaded at every start of the container. So, after you updated your board(s), run `docker restart pinout` to reload them.
