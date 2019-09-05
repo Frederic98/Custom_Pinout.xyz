@@ -31,8 +31,8 @@ if CUSTOM_REPO is not None:
 
     print('Adding boards...')
     subprocess.call(['git', 'clone', CUSTOM_REPO, CUSTOM_REPO_DIR])
-    shutil.move('draft/boards', 'draft/boards.old')
-    shutil.move('draft/overlay', 'draft/overlay.old')
+    shutil.rmtree('draft/boards')
+    shutil.rmtree('draft/overlay')
     shutil.copytree(os.path.join(CUSTOM_REPO_DIR, 'boards'), 'draft/boards')
     shutil.copytree(os.path.join(CUSTOM_REPO_DIR, 'overlay'), 'draft/overlay')
 
